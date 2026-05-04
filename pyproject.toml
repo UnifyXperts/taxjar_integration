@@ -1,0 +1,14 @@
+[project]
+name = "taxjar_integration"
+version = "0.0.1"
+description = "TaxJar Integration for ERPNext"
+authors = [
+    { name = "Sandip", email = "sandip@unifyxperts.com" }
+]
+requires-python = ">=3.10"
+
+dependencies = [
+    "frappe",
+    "erpnext",
+    "requests"
+]
